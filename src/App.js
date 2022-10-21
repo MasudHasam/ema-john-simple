@@ -3,6 +3,7 @@ import './App.css';
 import Inventory from './components/Inventory/Inventory';
 import Login from './components/Login/Login';
 import Order from './components/Order/Order';
+import PrivetRoutes from './components/Routes/PrivetRoutes';
 import Shop from './components/Shop/Shop';
 import SignUp from './components/SignUp/SignUp';
 import Main from './Layout/Main';
@@ -23,7 +24,7 @@ function App() {
         {
           path: 'order',
           loader: loadProductAndCart,
-          element: <Order></Order>
+          element: <PrivetRoutes><Order></Order></PrivetRoutes>
         },
         {
           path: 'inventory',
