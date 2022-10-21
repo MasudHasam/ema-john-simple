@@ -1,0 +1,13 @@
+.cart-area {
+    position: sticky;
+    top: 0px;
+}
+
+.hedline {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.cart-details {
+    margin: 10px;
+}
